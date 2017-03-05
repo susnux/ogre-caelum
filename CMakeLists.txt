@@ -131,7 +131,7 @@ set(CPACK_PACKAGE_NAME "caelum")
 set(CPACK_DEBIAN_PACKAGE_DEPENDS "ois")
 set(CPACK_PACKAGE_CONTACT "support@rigsofrods.com")
 set(CPACK_PACKAGE_VENDOR "support@rigsofrods.com")
-set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/lgpl.txt")
+set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/COPYING")
 
 SET(CPACK_GENERATOR ZIP)
 IF(UNIX)
@@ -183,5 +183,5 @@ if (Caelum_BUILD_DOCUMENTATION)
 endif (Caelum_BUILD_DOCUMENTATION)
 
 # other doc files
-set(DOC_FILES Contributors.txt lgpl.txt ReadMe.txt)
+set(DOC_FILES AUTHORS.md COPYING ReadMe.txt)
 install(FILES ${DOC_FILES} DESTINATION "share/doc/${PROJECT_NAME}")

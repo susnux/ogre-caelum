@@ -5,7 +5,7 @@ which is provided as open source software under the terms of the LGPL version 3.
 A copy of the license can be found in [COPYING](COPYING) or online at http://www.gnu.org/licenses/gpl-3.0.en.html
 
 ## Previous authors
-See also this caelum thread: http://www.ogre3d.org/phpBB2/viewtopic.php?t=24961
+See also this Caelum thread: http://www.ogre3d.org/phpBB2/viewtopic.php?t=24961
 
 ### Maintainers
 | GitHub nickname    | Ogre forum nickname | real name            | E-Mail                | Tasks                            |
@@ -45,5 +45,5 @@ You can get a list of recent authors from the VCS, e.g. via `git shortlog -sne`,
 or conveniently looked up on the [GitHub web interface](https://github.com/RigsOfRods/ogre-caelum/graphs/contributors).
 This does not contain all contributors however since the source code moved from SVN to git repositories.
 
-Details on individual authorships of files can be obtained via the VCS, e.g. via `git blame`,
+Details on individual authorship of files can be obtained via the VCS, e.g. via `git blame`,
 or the [GitHub web interface](https://github.com/RigsOfRods/ogre-caelum/commits/master). Again, this does not display all authors.
